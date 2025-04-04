@@ -1,17 +1,19 @@
 {
+  "name": "p-web",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Gustavo E.",
+  "license": "ISC",
+  "description": "",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.21.2",
-    "mysql2": "^3.13.0"
-  },
-  "name": "dengue",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "start": "node app.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+    "multer": "^1.4.5-lts.2",
+    "mysql2": "^3.14.0",
+    "nodemon": "^3.1.9",
+    "path": "^0.12.7"
+  }
 }
